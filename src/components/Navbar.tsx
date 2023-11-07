@@ -32,22 +32,47 @@ export const Navbar: React.FC = () => {
           </div>
         </div>
 
-        <div className="text-dark font-semibold md:flex flex-row gap-4 hidden ">
-          <a href="">Home</a>
-          <a href="">Menu</a>
-          <a href="">About Us</a>
-          <a href="">Our Specials</a>
-          <a href="">Our Chefs</a>
+        <div className="text-dark  font-bold md:flex flex-row gap-6 hidden ">
+          <a
+            href=""
+            className="hover:text-orange-dark hover:-translate-y-1 hover:scale-110  transition ease-in-out delay-150 "
+          >
+            Home
+          </a>
+          <a
+            href=""
+            className="hover:text-orange-dark hover:-translate-y-1 hover:scale-110  transition ease-in-out delay-150"
+          >
+            Menu
+          </a>
+          <a
+            href=""
+            className="hover:text-orange-dark hover:-translate-y-1 hover:scale-110  transition ease-in-out delay-150"
+          >
+            About Us
+          </a>
+          <a
+            href=""
+            className="hover:text-orange-dark hover:-translate-y-1 hover:scale-110  transition ease-in-out delay-150"
+          >
+            Our Specials
+          </a>
+          <a
+            href=""
+            className="hover:text-orange-dark hover:-translate-y-1 hover:scale-110  transition ease-in-out delay-150"
+          >
+            Our Chefs
+          </a>
         </div>
 
         <div className="text-orange-dark font-semibold hidden md:flex flex-row gap-8">
-          <span>
+          <span className="hover:text-dark cursor-pointer hover:-translate-y-1 hover:scale-110  transition ease-in-out delay-150">
             <IoSearch size={24} />
           </span>
-          <span>
+          <span className="hover:text-dark cursor-pointer hover:-translate-y-1 hover:scale-110  transition ease-in-out delay-150">
             <AiOutlineShoppingCart size={24} />
           </span>
-          <span>
+          <span className="cursor-pointer hover:text-dark rounded hover:-translate-y-1 hover:scale-110  transition ease-in-out delay-150">
             <AiOutlineUser size={24} />
           </span>
         </div>
@@ -68,7 +93,7 @@ export const Navbar: React.FC = () => {
         >
           <div onClick={() => handleClose()}>
             <div className=" mt-4 text-xl font-bold flex flex-col gap-4  ">
-              <a href="#" className="hover:text-white">
+              <a href="#" className="hover:text-white ">
                 Home
               </a>
               <a href="#" className="hover:text-white">
