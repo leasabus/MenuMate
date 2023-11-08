@@ -9,3 +9,10 @@ html , body {
   border-style: none;
   
 }
+
+img {
+  width: 400px;
+  height: auto;
+}
+
+
