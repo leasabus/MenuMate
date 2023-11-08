@@ -19,7 +19,7 @@ export const Navbar: React.FC = () => {
   };
   return (
     <>
-      <div className="p-6 flex flex-row justify-between items-center">
+      <section className="p-6 flex flex-row justify-between items-center">
         <div className="flex flex-row items-center gap-2">
           <span className="text-orange">
             <IoRestaurantSharp size={54} />
@@ -123,7 +123,7 @@ export const Navbar: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };
